@@ -1,18 +1,24 @@
-# Subscripting
-print("Hello"[0])
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
 
-# String
-print("123" + "345")
 
-# Integer = Whole number
-print(123 + 345)
+def guide_wall():
+    turn_left()
+    move()
+    if wall_in_front():
+        turn_left():
+    move()
 
-# Large Integers
-print(123_456_789)
 
-# Float = Floating Point Number
-print(3.14159)
+while not at_goal():
+    if not wall_in_front():
+        move()
+    else:
+        guide_wall()
 
-# Boolean
-print(True)
-print(False)
+
+
+
+
